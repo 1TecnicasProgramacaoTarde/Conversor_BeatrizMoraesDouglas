@@ -29,7 +29,7 @@ public static void main(String[] args) {
     //Opção do usuário
     System.out.print("\nOpção: ");
     op = entrada.nextInt();
-if (op == 1){
+if (op == 2){
 //Fah --> Cel
 
 //Entrada
