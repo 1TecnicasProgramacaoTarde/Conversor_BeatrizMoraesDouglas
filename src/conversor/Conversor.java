@@ -29,6 +29,19 @@ public static void main(String[] args) {
     //Opção do usuário
     System.out.print("\nOpção: ");
     op = entrada.nextInt();
+    
+if (op ==1){
+     //Cel --> Fah
+
+    //Entrada
+    System.out.println("Insira o valor em celsius");
+    fah = entrada.nextDouble();
+
+    //Processamento
+    fah = 9 * cel / 2
+
+    //Saída
+    System.out.printf("\nA temperatura é \n" + fah );}
 if (op == 2){
     //Fah --> Cel
 
