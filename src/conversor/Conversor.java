@@ -30,17 +30,17 @@ public static void main(String[] args) {
     System.out.print("\nOpção: ");
     op = entrada.nextInt();
 if (op == 2){
-//Fah --> Cel
+    //Fah --> Cel
 
-//Entrada
-System.out.println("Insira o valor em fahrenheit");
-fah = entrada.nextDouble();
+    //Entrada
+    System.out.println("Insira o valor em fahrenheit");
+    fah = entrada.nextDouble();
 
-//Processamento
-cel = fah - 32 * 5 / 9;
+    //Processamento
+    cel = fah - 32 * 5 / 9;
 
-//Saída
-System.out.printf("\nA temperatura é \n" + cel );}
+    //Saída
+    System.out.printf("\nA temperatura é \n" + cel );}
     
 
     }
